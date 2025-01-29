@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  top: 100px;
+}
+.main .main__paragraphe {
+  font-weight: bold;
+}
+.main .main__paragraphe:hover {
+  color: yellow;
+}/*# sourceMappingURL=main.css.map */

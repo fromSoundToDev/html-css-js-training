@@ -1,0 +1,19 @@
+@import './resest' ;
+@import './variables/variables';
+
+body{
+    background:$noire ;
+    color: $blanc;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+    top: 100px;
+    #{&}__paragraphe{
+        font-weight: bold;
+        &:hover{
+            color: yellow;
+        }
+    }
+}

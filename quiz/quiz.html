@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="entete">Quiz</h1>
+        <div class="displayQuestion">
+            <p id="Question">quelle est la capital du togo</p>
+        </div>
+        <div class="displayELAnswer">
+            <ul id="reponse" class="answer">
+                <li onclick="isCorect" class="maReponse" >lome</li>
+                <li onclick="isCorect" class="maReponse" >benin</li>
+                <li onclick="isCorect" class="maReponse" >Accra</li>
+                <li onclick="isCorect" class="maReponse" >GTA</li>
+            </ul>
+        </div>
+        <div class="displayState">
+            <div class="state"><span style="">Score :</span>4</div>
+            <div class="state"><span style="">Level :</span>2</div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.poeme{
+    height: 600px;
+    width: 40%;
+    border: 5px solid pink;
+   margin: auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+   
+    outline-style: inset;
+    outline-width: 5px;
+    outline-color: rgb(247, 223, 227);
+    background-image: url("./images/rose.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul li a{
+   margin-left: 50px;
+}
+
+ul li{
+    list-style: none;
+}
+.point{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1{
+text-align: center;    
+margin: 30px 0px;
+}
+h3{
+    margin-left: 50px;
+}
+p{
+    margin: 10px 50px 0px ;
+    text-align: justify;
+    font-weight: bold;
+    width: 250px;
+}

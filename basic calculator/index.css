@@ -1,0 +1,12 @@
+.calculatrice{
+    width: 350px;
+
+}
+.entrer{
+    width: 335px;
+    padding: 5px;
+}
+.mesButton{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

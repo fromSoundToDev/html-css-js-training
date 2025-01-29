@@ -1,0 +1,9 @@
+when the column wraping is manage by the minmax property
+the rows which are created implicitly doeasnt 
+respect the given size .
+
+to solve that ,
+
+you just have to apply the following property:
+
+grid-auto-rows: the_size.

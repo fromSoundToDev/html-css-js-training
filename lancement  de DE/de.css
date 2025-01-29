@@ -1,0 +1,95 @@
+*{
+    font-family: cursive;
+    color:#ffffff ;
+    
+}
+body{
+    background-color: azure;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    
+
+}
+.entete{
+    font-size: 20px;
+    
+}
+.dice-lunch{
+    width: 85px;
+    padding: 10px;
+    background-color: #ffb703;
+    color: #023047;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.511);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.dice-lunch:hover{
+  opacity: 75%;
+  
+
+}
+
+.face{
+    padding: 0px 5px;
+    list-style: none;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.511);
+    background-color: #023047;
+    color: #ffb703;
+}
+#list-of-de{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding-right: 30px;
+}
+
+.entete{
+    color: #023047;
+    text-decoration: underline;
+}
+
+
+.face .de{
+    font-size: 25px;
+}
+.dice{
+    color: #023047;
+    font-size: 75px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+.roll-animation{
+    animation-name: roll;
+
+}
+@keyframes roll{
+    0%{
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    100%{
+        transform: rotateY(720deg) rotateX(720deg);
+    }
+}

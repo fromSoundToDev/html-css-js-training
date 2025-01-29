@@ -1,0 +1,28 @@
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/* steps styles */
+
+.line-container{
+  display: flex;
+}
+.line{
+width: 20%;
+background-color: brown;
+height: 2px;
+}
+.circle{
+  border: 2px solid green;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  z-index: 2;
+}

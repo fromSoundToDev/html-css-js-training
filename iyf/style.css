@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{ 
+ background-image: radial-gradient(#fefefe 2px, transparent 2px);
+background-size: 52px 52px;
+background-color: #def8fc;
+}
+
+/*header*/
+
+.entete{
+background-color:  #def8fc;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px  solid black;
+box-shadow: 1px 0px 2px black;
+}
+.logo {
+    width: 60%;
+}
+.logo img{
+    padding: 20px;;
+}
+
+.mes_liens{
+   
+    width: 30%;
+   text-align: center;
+   justify-content: space-around;
+   padding-top: 50px;
+   
+}
+a.lien{
+ 
+   padding: 0px 20px;
+   text-decoration: none;
+   color: #17488b;
+   font-weight: bold;
+  
+}
+.lien:hover{
+    color: #3e9e29;
+}
+
+/* tableau*/
+
+table,th,td{
+    border-bottom: 1px solid #17488b;
+}
+table{
+    width: 50%;
+    height: 300px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 80px;
+}
+th,tr{
+    text-align: center;
+}
+th{
+color: #17488b;
+}
+
+tr:hover{
+    background-color: #3e9e29;
+    color:  #ffffff;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom:30px;
+    text-decoration: underline;
+    color: #17488b;
+    text-transform: uppercase;
+}

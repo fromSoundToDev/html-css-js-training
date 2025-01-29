@@ -1,0 +1,78 @@
+/*Style du body*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Image/img05.jpg");
+    background-size: cover;
+}
+
+/*style du header*/
+header{
+    display: flex;
+    border-bottom: 1px solid black;
+    box-shadow: 3px 2px 3px rgb(27, 27, 27);
+    background-color: rgb(219, 243, 243);
+}
+
+/*style du logo*/
+.logo{
+    font-size: 10px;
+    padding-left: 15px;
+    color: rgb(5, 84, 158);
+}
+span{
+    color: rgb(189, 35, 35);
+}
+
+/*style des liens*/
+.Liens{
+    padding-top: 12px;
+    width: 1200px;
+    text-align:  right ; 
+}
+
+.lien{
+    margin: 0px 20px;
+    text-decoration: none ;
+    color: rgb(6, 46, 105);
+    text-decoration: solid;
+}
+
+/*style du tableau*/
+.table{
+    padding-top: 80px;
+    font: 20px solid black;
+    margin-left: 30%;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+}
+
+caption{
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 28px;
+}
+thead{
+    height: 80px;
+    text-decoration: solid;
+    font-size: 25px;
+}
+table,th,td{
+    border: 1px solid black;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+.t1:hover{
+    background-color: aqua;
+}
+.t2:hover{
+    background-color: rgb(27, 30, 211);
+}
+.t3:hover{
+    background-color: rgb(26, 230, 117);
+}
+.t4:hover{
+    background-color: rgb(233, 69, 77);
+}

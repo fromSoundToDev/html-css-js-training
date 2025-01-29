@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+header,
+footer,.content,
+.side-bar{
+    padding: 2em;
+}
+
+header{
+    background-color: red;
+}
+footer{
+    background-color: blue;
+}
+.content{
+    background-color: rgb(180, 133, 75);
+}
+.side-bar{
+    background-color: purple;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 10% 50% 30% 10%;
+    grid-template-areas: 
+    "header header header header"
+    "...... content side  ......"
+    "footer footer footer footer"
+
+}
+header{
+    grid-area: header;
+    
+}
+.content{
+    grid-area: content;
+}
+.side-bar{
+    grid-area: side;
+}
+footer{
+    grid-area:footer ;
+}
+
+

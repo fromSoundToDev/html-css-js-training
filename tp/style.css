@@ -1,0 +1,34 @@
+
+span{
+    color: aqua;
+}
+.logo>h2{
+    font-weight:bold;
+    padding-left: 20px;
+    width: 300px;
+}
+.Mes_liens{
+    text-align: right;
+    padding-top: 25px;
+    width: 1200px;
+    
+}
+.liens{
+    
+    margin: 0px 20px;
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+.entete{
+    display: flex;
+}
+.entete{
+    background-color: #b0c4b1;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px black;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

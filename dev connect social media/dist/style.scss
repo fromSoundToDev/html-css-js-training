@@ -1,0 +1,27 @@
+@import './component/header';
+@import './utilities';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+
+// reset the initial 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #051923;
+    font-family: "Stylish", serif;
+}
+
+a{
+    color: #ffb703;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}

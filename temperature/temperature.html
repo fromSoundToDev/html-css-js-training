@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temperature.css">
+    <title>temperature converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="myTitle">Temperature converter</h1>
+        <form id="form1" action="">
+            <label for="celcuis">celcuis:
+                <input oninput="convert(event)" placeholder="enter the temperature"  id="celcuis" type="number" name="celcuis">
+            </label>
+            <label for="faraheit">faraheit:
+                <input oninput="convert(event)" placeholder="enter the temperature" id="faraheit" type="number" name="faraheit">
+            </label>
+            <label for="kelvin">kelvin:
+                <input oninput="convert(event)" placeholder="enter the temperature" id="kelvin" type="number" name="kelvin">
+            </label>
+        </form>
+    </div>
+    <script src="temperature.js"></script>
+</body>
+</html>

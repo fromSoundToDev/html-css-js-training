@@ -1,0 +1,28 @@
+
+/* ceci est un commentaire */
+td,th{
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+}
+/* style de la page couleur */
+
+h1{  
+ border:8px dotted #ff6347;
+}
+.myDiv{
+    background-color: blueviolet;
+    opacity: 60%;
+}
+/* les style de bordures  */
+.bordure1{
+    border: 2px inset rgb(236, 21, 21);
+ margin: 20px;
+ padding: 10px;
+}
+.bordure02{
+    border-bottom: 2px solid black;
+}
+.bordure03{
+    border-right: 2px dotted red;
+}

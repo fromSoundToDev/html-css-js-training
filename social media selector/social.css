@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+body{
+  background:linear-gradient(to bottom right,purple,orange);
+    height: 100vh;
+    
+}
+
+.container{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+
+}
+
+/* styling input container */
+
+.container .social-selcted{
+   background-color: rgba(255, 255, 255, 0.311);
+    padding: 10px ;
+    margin: 15px 0px;
+    width: 310px;
+    border-radius:3px ;
+}
+.container .social-selctions{
+    background-color: rgba(255, 255, 255, 0.326);
+    border-radius: 3px;
+   
+}
+.social-selctions .social-list li{
+    margin: 5px;
+   list-style: none;
+   width:300px ;
+   margin-bottom:10px ;
+   padding: 3px 10px;
+   padding-top: 10px;
+   border-radius: 3px;
+   display: flex;
+   align-items: center;
+}
+
+.social-selctions .social-list li:hover{
+    background-color: rgba(0, 0, 0, 0.29);
+    width: 300px;
+    padding-left: 5px;
+   
+
+ }
+ li .fa-brands{
+    margin-right: 14px;
+ }
+

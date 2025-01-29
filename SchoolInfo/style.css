@@ -1,0 +1,77 @@
+.entete{
+    display: flex;
+    margin: 15px 8px;
+    
+
+}
+.logo{
+    
+    width: 500px;
+    margin-left: 40px;
+   
+
+}
+.Mes_liens{
+   
+    width: 1300px;
+    padding-top: 24px;
+    text-align: right;
+    margin-right: 40px;
+
+}
+.liens{
+    margin: 7px;
+    font-weight: bold;
+    color: yellowgreen;
+    text-decoration: none;
+
+}
+span{
+    color: yellowgreen;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./images/fleur.jpg");
+    background-size: cover;
+    
+
+}
+thead, td, th{
+    border: 1px;
+
+}
+.tableau{
+    color: white;
+   
+    height: 500px;
+    margin-top: 40px;
+   
+
+}
+.tab{
+    margin: auto;
+  
+    height: 300px;
+    width: 500px;
+    
+
+}
+.School{
+    color: white;
+}
+table,th,td{
+    border: 2px  solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+.t1:hover{
+    background-color: red;
+
+}
+.t2:hover{
+    background-color: rgb(255, 0, 174);
+}
+.t3:hover{
+    background-color: aqua;
+}

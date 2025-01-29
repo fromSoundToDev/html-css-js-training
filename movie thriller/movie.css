@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+.container{
+
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    top:20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.776);
+}
+.container .myImage{
+width: 300px;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+.container .myTitle{
+    color: #73181f;
+    margin-bottom:15px ;
+    font-family: serif;
+}
+.container .myParagraphe{
+    width: 300px;
+    margin-bottom:15px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container .myBtn{
+    width: 60px;
+    padding: 3px;
+    font-weight: bold;
+    background-color: #73181f;
+    color: white;
+    border: #73181f;
+    border-radius: 3px;
+    margin-bottom:10px ;
+    font-family: serif;
+    cursor: pointer;
+
+
+}
+
+.container .videoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 70px;
+}
+.videoContainer .myVideo{
+    width: 250px;
+    border-radius: 3px;
+    
+}
+
+.videoContainer #icon{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+#willChange{
+visibility: visible;
+}
+
